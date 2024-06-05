@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header h1 {
+    margin: 20px 0;
+}
+
+header p {
+    margin: 20px 0;
+}
+
+header button {
+    background: white;
+    color: #4CAF50;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+header button:hover {
+    background: #45a049;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#fitur .fitur {
+    margin: 20px 0;
+}
+
+#galeri {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#galeri .galeri-item {
+    margin: 10px;
+}
+
+#galeri .galeri-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    max-width: 400px;
+}
+
+form button {
+    margin: 20px 0;
+    padding: 10px 20px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #45a049;
+}
+
+footer {
+    background: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
